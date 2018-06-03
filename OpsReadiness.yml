@@ -1,0 +1,40 @@
+### Purpose ###
+# Community values for service teams to be prepared for deployment to production. The intent is to review and 
+# identify what is known and what risks exist for the deployable and what level of confidence we should have for a service.
+# This is an ongoing effort to inspire amazing work while maintaining consistency in what we worry about when delivering services.
+# Core to all of this is fostering a culture of trust and accountability for our organization so we win together.
+
+# 4 Pillars of Readiness: Operations, Performance, Agility, Security
+
+Operations: #Configuration and Service Details
+
+  - readiness: #Basic Details of the Readiness Meeting
+    reviewed: #yes/no You held a review meeting
+    meeting_date: #Date yyyy-mm-dd
+    
+# Things to add: Monitoring & Alerting Config, Logging, Repo, Org Owners, Documentation
+
+Performance: #Defined Critical Metrics (RED, USE, Etc...)
+  - Service: #App Specific Metrics
+    RequestRate:
+    
+  - Cost: #Cost Specific Metrics
+    CostMetric:
+    
+# Need to consider how we ask for these. I prefer a reference to a datapoint in a system for automation flexibility
+# Example: RequestRate: Metric X @ MonitoringEndpoint Y
+
+Agility: #Inspire effective high change rates
+
+  - DeploymentDetails:
+    
+  - TestDetails:
+    
+#Need to think about how to keep this section community friendly
+
+Security: #Security posture for our service
+
+  - SecurityDetails:
+    DataClass: #PCI, HIPA, ISONumbers
+    
+#Excited to get some community thoughts here!
