@@ -26,7 +26,13 @@ Performance: #Defined Critical Metrics (RED, USE, Etc...)
 
 Agility: #Inspire effective high change rates
 
+  - Architecture:
+    TechStack: #Container, Serverless, Stream
+
   - DeploymentDetails:
+    Pattern: #Phased Deploy, Blue/Green, etc...
+    AutoRollback: #Yes/No - Autrollback on failure
+    
     
   - TestDetails:
     
